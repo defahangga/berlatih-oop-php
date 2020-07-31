@@ -20,7 +20,7 @@ class animal {
     // fungsi mencetak data dari variabel global diatas
     public function getCetak()
     {
-        return "$this->name <br> $this->legs <br> $this->cold_blooded";
+        return "$this->name <br> $this->legs <br> $this->cold_blooded <br><br>";
     }
     
 }
