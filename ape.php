@@ -9,16 +9,12 @@ class ape extends animal{
         $this->legs = $legs;
         $this->cold_blooded = $cold_blooded;
         $this->animal_sound = $animal_sound;
-        
-
     }
 
     public function yell(){
-        return "$this->name <br> $this->legs <br> $this->cold_blooded <br> $this->animal_sound <br><br>";
+        echo "Name : $this->name <br> Legs : $this->legs <br> Cold blood : $this->cold_blooded <br> Animal sound : $this->animal_sound <br><br>";
     }
     
-    
 }
-
 
 ?>

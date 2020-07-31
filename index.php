@@ -5,16 +5,12 @@ include_once('frog.php');
 include_once('ape.php');
 
 $sheep = new Animal("shaun");
+$sheep->getCetak();
 
-echo $sheep->getCetak();
+$sungokong = new ape ("Kera sakti");
+$sungokong->yell(); // "Auooo"
 
-$sungokong = new ape ("kera sakti");
-echo $sungokong->yell(); // "Auooo"
-
-
-$kodok = new frog ("buduk");
-echo $kodok->jump(); // "Auooo"
-
-
+$kodok = new frog ("Buduk");
+$kodok->jump(); // "Hop hop"
 
 ?>

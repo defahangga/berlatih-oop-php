@@ -13,19 +13,14 @@ class animal {
         $this->name = $name;
         $this->legs = $legs;
         $this->cold_blooded = $cold_blooded;
-        
-
     }
 
     // fungsi mencetak data dari variabel global diatas
     public function getCetak()
     {
-        return "$this->name <br> $this->legs <br> $this->cold_blooded <br><br>";
+        echo "Name : $this->name <br> Legs : $this->legs <br> Cold blood : $this->cold_blooded <br><br>";
     }
     
 }
-
-
-
 
 ?>

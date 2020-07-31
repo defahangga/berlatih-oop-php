@@ -5,7 +5,7 @@ class frog extends animal{
 
     public $animal_sound="";
 
-    public function __construct($name, $legs = 2, $cold_blooded = "false", $animal_sound = "hop hop"){
+    public function __construct($name, $legs = 4, $cold_blooded = "yes", $animal_sound = "Hop hop"){
         $this->name = $name;
         $this->legs = $legs;
         $this->cold_blooded = $cold_blooded;
@@ -13,12 +13,9 @@ class frog extends animal{
     }
 
     public function jump(){
-        return "$this->name <br> $this->cold_blooded <br> $this->animal_sound <br><br>";
+        echo "Name : $this->name <br> Legs : $this->legs <br> Cold blood : $this->cold_blooded <br> Animal sound : $this->animal_sound <br><br>";
     }
 
 }
-
-
-
 
 ?>
